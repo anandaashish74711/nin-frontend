@@ -29,7 +29,7 @@ const Dashboard: React.FC = () => {
     );
 
     const handleOnClickPatient = (userId: string) => {
-        // Programmatically navigate to the patient detail page
+       
         navigate(`/patient/${userId}`);
         console.log(`Viewing patient ID: ${userId}`);
     };
