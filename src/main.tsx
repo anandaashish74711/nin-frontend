@@ -11,6 +11,7 @@ import { Provider } from 'react-redux';
 import Dashboard from './pages/Dasboard'; 
 import ErrorPage from './pages/Error'; 
 
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/patient/:id',
-    element: <Patient />,
+    element: <Patient/>,
   },
   {
     path: '/visit/:id',

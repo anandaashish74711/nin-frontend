@@ -18,7 +18,10 @@ import { Button } from "@/components/ui/button";
 const Dashboard: React.FC = () => {
     const { data: patients, error, isLoading } = useGetPatientsQuery({});
     const [searchTerm, setSearchTerm] = useState('');
-    const navigate = useNavigate(); // useNavigate hook for navigation
+    const navigate = useNavigate();
+
+
+    
 
     if (isLoading) return <div>Loading...</div>;
     if (error) return <div>Error loading patients.</div>;
@@ -68,11 +71,11 @@ const Dashboard: React.FC = () => {
                                     <TableCell className="hidden sm:table-cell w-1/5">{patient.gender || 'N/A'}</TableCell>
                                     <TableCell className="text-center w-1/5">{patient.email || 'N/A'}</TableCell>
                                     <TableCell className="text-center w-1/5">
-                                        <Button variant="outline" onClick={() => handleOnClickPatient(patient.id)}>View</Button>
+                                        <Button variant="outline" onClick={() => handleOnClickPatient(patient.ehrId)}>View</Button>
                                     </TableCell>
                                 </TableRow>
                             ))}
-                        </TableBody>
+                        </TableBody> 
                     </Table>
                 </CardContent>
             </Card>
