@@ -46,7 +46,7 @@ const Home = () => {
   IHub-Data IIIT Hyderabad
 </h1>
 <p className="mt-4 text-lg text-gray-200 max-w-2xl">
-  **Glucare** harnesses advanced data analysis and cutting-edge technology to measure glucose levels, aiming to predict and prevent diabetes.
+  Glucose-Care harnesses advanced data analysis and cutting-edge technology to measure glucose levels, aiming to predict and prevent diabetes.
 </p>
 
 
