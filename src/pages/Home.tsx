@@ -3,7 +3,7 @@ const Home = () => {
   return (
      <div className="h-screen relative">
       
-     <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/imagecopy.png)',  zIndex: '-1' }}></div>
+     <div className="absolute inset-0 bg-cover bg-center h-screen" style={{ backgroundImage: 'url(/imagecopy.png)',  zIndex: '-1' }}></div>
 
 
       {/* Overlay to darken the background for better readability */}

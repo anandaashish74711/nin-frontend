@@ -57,7 +57,7 @@ const Dashboard: React.FC = () => {
                                 <TableHead className="w-1/5">Name</TableHead>
                                 <TableHead className="hidden sm:table-cell w-1/5">Age</TableHead>
                                 <TableHead className="hidden sm:table-cell w-1/5">Gender</TableHead>
-                                <TableHead className="text-center w-1/5">Email</TableHead>
+                                <TableHead className="text-center w-1/5">Number</TableHead>
                                 <TableHead className="text-center w-1/5">Actions</TableHead>
                             </TableRow>
                         </TableHeader>
